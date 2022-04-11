@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "787828743716",
+    "project_id": "destek-major",
+    "storage_bucket": "destek-major.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787828743716:android:580db785cdb561388d82b1",
+        "android_client_info": {
+          "package_name": "com.example.new_destek_sorted"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787828743716-6oh9nc3lrgu9n135hrqih1fre6rla526.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGqYXRHvYYmwkH8OFpaT4MXI6UyQO4k_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787828743716-6oh9nc3lrgu9n135hrqih1fre6rla526.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
