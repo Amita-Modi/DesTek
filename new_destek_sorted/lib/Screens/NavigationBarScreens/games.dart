@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:new_destek_sorted/Screens/NavigationBarScreens/Games/Hangman/mainGame.dart';
+import 'package:new_destek_sorted/Screens/NavigationBarScreens/Games/HungrySnake/main.dart';
+import 'package:new_destek_sorted/Screens/NavigationBarScreens/Games/TicTacToe/main.dart';
 import 'package:shimmer/shimmer.dart';
 
 class Games extends StatefulWidget {
@@ -147,8 +149,8 @@ class _GamesState extends State<Games> {
                 SizedBox(height: 20),
                 GestureDetector(
                   onTap: () {
-                    // Navigator.push(
-                    // context, MaterialPageRoute(builder: (context) => Feature1()));
+                    Navigator.push(
+                    context, MaterialPageRoute(builder: (context) => MyTicTacToeApp()));
                   },
                   child: Container(
                       margin: EdgeInsets.symmetric(horizontal: 10, vertical: 0),
@@ -216,8 +218,8 @@ class _GamesState extends State<Games> {
                 SizedBox(height: 20),
                 GestureDetector(
                   onTap: () {
-                    // Navigator.push(
-                    // context, MaterialPageRoute(builder: (context) => Feature1()));
+                    Navigator.push(
+                    context, MaterialPageRoute(builder: (context) => MySnakeApp()));
                   },
                   child: Container(
                       margin: EdgeInsets.symmetric(horizontal: 10, vertical: 0),
